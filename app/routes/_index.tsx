@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import React, {useEffect, useState} from 'react';
 import '../styles/tailwind.css';
+import FullscreenButton from '~/components/FullscreenButton';
 
 function HomePage() {
   const [currentDateTime, setCurrentDateTime] = useState<string>('');
@@ -29,15 +30,19 @@ function HomePage() {
         <div className="text-4xl font-bold text-green-400 mb-4">{currentDateTime}</div>
       </div>
       <div className="divider divider-accent">TODAY'S TASKS</div>
-      <div className="w-full bg-white rounded shadow-md text-center p-8 text-yellow-400">
-        <div className="text-4xl font-bold mb-4">Card 2</div> 
+      <div className="w-full bg-white rounded shadow-md text-center p-8 text-yellow-500">
+        <div className="text-4xl font-bold mb-4 line-through">Card 1</div> 
+      </div>
+      <div className="w-full bg-white rounded shadow-md text-center p-8 mt-4 text-yellow-400">
+        <div className="text-4xl font-bold mb-4">Card 2</div>
       </div>
       <div className="w-full bg-white rounded shadow-md text-center p-8 mt-4 text-yellow-300">
         <div className="text-4xl font-bold mb-4">Card 3</div>
       </div>
       <div className="w-full bg-white rounded shadow-md text-center p-8 mt-4 text-yellow-200">
-        <div className="text-4xl font-bold mb-4">Card 3</div>
+        <div className="text-4xl font-bold mb-4">Card 4</div>
       </div>
+      <FullscreenButton />
     </div>
   );
 }
