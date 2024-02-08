@@ -4,15 +4,15 @@ import TaskCard from '~/components/TaskCard';
 function TaskList(){
     
     const tasks = [
-        {text: 'Card 1', color: 'yellow-500'},
-        {text: 'Card 2', color: 'yellow-400'},
-        {text: 'Card 3', color: 'yellow-300'},
+        {text: 'Organise study and bedroom', color: 'yellow-500', initialTime: 300},
+        {text: 'Take bath', color: 'yellow-400', initialTime: 300},
+        {text: 'Complete dashboard', color: 'yellow-300', initialTime: 300},
     ];
     
     return(
         <div className="w-full flex flex-col justify-center items-center">
             {tasks.map((task, index) => (
-                <TaskCard key={index} text={task.text} color={task.color} />
+                <TaskCard key={index} text={task.text} color={task.color} initialTime={task.initialTime} />
             ))}
         </div> 
     );
