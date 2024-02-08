@@ -36,7 +36,7 @@ function DateTimeCard() {
         <div className="flex-grow"></div> {/* Empty space to push content to the top */}
           <div className="text-6xl text-white mb-4">{formattedDate}</div>
             <div className="rounded-md border border-4 border-white p-4">
-            <div className="text-8xl font-serif font-bold text-white flex-grow w-full text-center">{formattedTime}</div>
+            <div className="text-9xl font-serif font-bold text-white flex-grow w-full text-center">{formattedTime}</div>
         </div>
     </div>
     );
