@@ -27,8 +27,7 @@ function TimeCard() {
     return (
     <div className="w-full rounded shadow-md text-center mb-4 p-8 bg-gradient-to-b from-purple-500 to-purple-300 flex flex-col items-center">
         <div className="flex-grow"></div> {/* Empty space to push content to the top */}
-            <div className="text-9xl font-sans font-bold text-white flex-grow w-full text-center">{formattedTime}</div>
-
+        <div className="text-9xl font-serif font-bold text-white flex-grow w-full text-center">{formattedTime}</div>
     </div>
     );
 }

@@ -24,7 +24,7 @@ function Timer({ initialTime }: TimerProps) {
 
   return (
     <div className="text-3xl font-bold mt-4">
-      Timer: {formatTime(time)}
+      Time: {formatTime(time)}
     </div>
   );
 }
