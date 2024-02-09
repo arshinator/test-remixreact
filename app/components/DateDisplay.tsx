@@ -21,13 +21,7 @@ function DateDisplay() {
     }, []);
 
     return (
-        <div className="text-5xl mb-4 w-full flex flex-col justify-center items-center">
-  <span style={{
-    background: '-webkit-linear-gradient(45deg, #8B5CF6, #9333EA)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent'
-  }}>{formattedDate}</span>
-</div>
+        <div className="text-5xl mb-4 w-full flex flex-col justify-center items-center text-primary">{formattedDate}</div>
     );
 
 }
