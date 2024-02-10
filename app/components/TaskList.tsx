@@ -4,7 +4,6 @@ import TaskCard from '~/components/TaskCard';
 function TaskList(){
     
     const tasks = [
-        {text: 'Organise study and bedroom', color: 'yellow-500', initialTime: 300},
         {text: 'Take bath', color: 'yellow-400', initialTime: 300},
         {text: 'Complete dashboard', color: 'yellow-300', initialTime: 300},
     ];
