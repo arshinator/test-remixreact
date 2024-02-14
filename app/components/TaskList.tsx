@@ -5,6 +5,7 @@ function TaskList(){
     
     const tasks = [
         {text: 'Complete dashboard', color: 'yellow-300', initialTime: 300},
+        {text: 'Organise email accounts & github accounts', color: 'yellow-300', initialTime: 300},
     ];
     
     return(
