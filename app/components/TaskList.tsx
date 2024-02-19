@@ -4,6 +4,8 @@ import TaskCard from '~/components/TaskCard';
 function TaskList(){
     
     const tasks = [
+        {text: 'App hosting evaluation', color: 'yellow-300', initialTime: 300},
+        {text: 'Change data source to sqlite', color: 'yellow-300', initialTime: 300},
         {text: 'Complete dashboard', color: 'yellow-300', initialTime: 300},
         {text: 'Organise email accounts & github accounts', color: 'yellow-300', initialTime: 300},
     ];
