@@ -21,7 +21,7 @@ function DateDisplay() {
     }, []);
 
     return (
-        <div className="text-5xl mb-4 w-full flex flex-col justify-center items-center text-primary">{formattedDate}</div>
+        <div className="text-6xl mb-4 w-full flex flex-col justify-center items-center text-primary">{formattedDate}</div>
     );
 
 }
